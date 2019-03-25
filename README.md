@@ -1,6 +1,8 @@
 # etl-nemi
 ETL NEMI to WQP's nwis-ws-start schema
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/4f3a8349e427482cb5c25ba89f7344a5)](https://www.codacy.com/app/usgs_wma_dev/etl-nemi?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=NWQMC/etl-nemi&amp;utm_campaign=Badge_Grade)
+
 This repo contains a spring batch application which runs the NEMI to WQP NWIS schema
 ETL. 
 
