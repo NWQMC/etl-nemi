@@ -9,9 +9,6 @@ public class WqpNemiNwisCrosswalk {
 	private String methodType;
 	private String nemiUrl;
 	
-	public WqpNemiNwisCrosswalk() {
-	}
-
 	public String getAnalyticalProcedureSource() {
 		return analyticalProcedureSource;
 	}

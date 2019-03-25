@@ -20,7 +20,7 @@ public class WqpNemiNwisCrosswalkProcessorTest {
 		source.setCitationMethodNum("citation-123");
 		source.setMethodId(15678);
 		source.setWqpSource("nwis");
-		source.setMethodType("analytical");;
+		source.setMethodType("analytical");
 		
 		result = processor.process(source);
 		
@@ -43,7 +43,7 @@ public class WqpNemiNwisCrosswalkProcessorTest {
 		source.setCitationMethodNum("citation-789");
 		source.setMethodId(15000);
 		source.setWqpSource("nwis");
-		source.setMethodType("statistical");;
+		source.setMethodType("statistical");
 		
 		result = processor.process(source);
 		
@@ -66,7 +66,7 @@ public class WqpNemiNwisCrosswalkProcessorTest {
 		source.setCitationMethodNum("citation-789");
 		source.setMethodId(15000);
 		source.setWqpSource("nwis");
-		source.setMethodType("unknown");;
+		source.setMethodType("unknown");
 		
 		result = processor.process(source);
 		

@@ -26,6 +26,8 @@ public class WqpNemiNwisCrosswalkProcessor implements ItemProcessor<WqpNemiNwisC
 			case "statistical" :
 				nemiUrl = "https://www.nemi.gov/methods/sams_method_summary/" + methodId + "/";
 				break;
+				
+			default :
 		}
 		result.setNemiUrl(nemiUrl);
 		
