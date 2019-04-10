@@ -23,7 +23,7 @@
 hs_err_pid*
 /target/
 
-application.yml
+/application.yml
 
 # IDE specific files
 /.project
