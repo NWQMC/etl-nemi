@@ -1,0 +1,17 @@
+spring:
+  batch:
+    initialize-schema: always
+    job:
+      enabled: false
+    
+app:
+  datasource:
+    wqp:
+      url: jdbc:postgresql://${NWIS_WS_STAR_HOST}:${NWIS_WS_STAR_PORT}/${NWIS_WS_STAR_DB}
+      username: ${NWIS_WS_STAR_USERNAME}
+      password: ${NWIS_WS_STAR_PASSWORD}
+      
+    nemi:
+      url: jdbc:oracle:thin:@//${NEMI_HOST}:${NEMI_PORT}/${NEMI_DB}
+      username: ${NEMI_USERNAME}
+      password: ${NEMI_PASSWORD}
